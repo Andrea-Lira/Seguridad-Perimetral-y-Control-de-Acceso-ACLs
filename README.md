@@ -23,3 +23,13 @@ A diferencua de las listas estándar, se utilizó una **ACL Extendida (101)** pa
 
 ## 4. Evidencia de Pruebas (Comlpliance)
 
+* **Prueba Exitosa (HTTP):** PCOPERACIONES accede correctamente a `http://192.168.30.10`
+*  **Prueba de Bloqueo (ICMP/IP):** El comando `ping` desde PCOPERACIONES hacia SERVERDB es rechazado por el Router (`Destination host unreacheble`)
+*  **Acceso Total: Se verificó que PCADMI mantiene conectividad completa hacia ambos servidores, cumpliendo con los privilegios de jerarquía.
+
+## Habilidades
+* Listas de Acceso Estendidas (ACL)
+* Gestión de servidores
+* Protocolo TCP/UDP
+* Seguridad de red
+
