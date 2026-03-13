@@ -21,13 +21,21 @@ Creación de un nuevo segmento lógico para los recursos compartidos
 
 ## 3. Implementación de ACL Extendida (Capa 4)
 
-A diferencua de las listas estándar, se utilizó una **ACL Extendida (101)** para filtrar tráfico basado en protocolos y puertos específicos, optimizando la seguridad en el Router.
+A diferencia de las listas estándar, se utilizó una **ACL Extendida (101)** para filtrar tráfico basado en protocolos y puertos específicos, optimizando la seguridad en el Router.
+
+![Configuración de ACL 101 en Router](CLI-ACL.png)
 
 ## 4. Evidencia de Pruebas (Compliance)
 
-* **Prueba Exitosa (HTTP):** PCOPERACIONES accede correctamente a `http://192.168.30.10`
+* **Prueba Exitosa (HTTP):** PCOPERACIONES accede correctamente a `http://192.168.30.10`, esto valida la conectividad directa hacia el servidor web mediante su dirección IPv4, lo que confirma el correcto funcionamiento de la ACL en la capa de red.
+
+![Acceso Exitoso a IP](web-exito.png)
+
 *  **Prueba de Bloqueo (ICMP/IP):** El comando `ping` desde PCOPERACIONES hacia SERVERDB es rechazado por el Router (`Destination host unreacheble`)
-*  **Acceso Total: Se verificó que PCADMI mantiene conectividad completa hacia ambos servidores, cumpliendo con los privilegios de jerarquía.
+
+![Ping Bloqueado por ACL](ping_bloqueado.png)
+
+*  **Acceso Total:** Se verificó que PCADMI mantiene conectividad completa hacia ambos servidores, cumpliendo con los privilegios de jerarquía.
 
 ## Habilidades
 * Listas de Acceso Estendidas (ACL)
