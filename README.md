@@ -11,3 +11,15 @@ Garantizar que el personal de Operaciones pueda consultar el portal web, pero te
 ## 2. Arquitectura de la DMZ 
 
 Creación de un nuevo segmento lógico para los recursos compartidos 
+
+| Recurso | VLAN | IP Estática | Servicio |
+| :--- | :---: | :--- | :--- |
+| **Servidor Web** | 30 | 192.168.30.10 | HTTP (Puerto 80) |
+| **Base de Datos** | 30 | 192.168.30.20 | SQL/Privado | 
+
+## 3. Implementación de ACL Extendida (Capa 4)
+
+A diferencua de las listas estándar, se utilizó una **ACL Extendida (101)** para filtrar tráfico basado en protocolos y puertos específicos, optimizando la seguridad en el Router.
+
+## 4. Evidencia de Pruebas (Comlpliance)
+
