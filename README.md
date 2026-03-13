@@ -33,13 +33,18 @@ A diferencia de las listas estándar, se utilizó una **ACL Extendida (101)** pa
 
 *  **Prueba de Bloqueo (ICMP/IP):** El comando `ping` desde PCOPERACIONES hacia SERVERDB es rechazado por el Router (`Destination host unreacheble`)
 
-![Ping Bloqueado por ACL](ping_bloqueado.png)
+![Ping Bloqueado por ACL](ping-bloqueado.png)
 
 *  **Acceso Total:** Se verificó que PCADMI mantiene conectividad completa hacia ambos servidores, cumpliendo con los privilegios de jerarquía.
+
+![Ping Exitoso Acceso Total](ping-exito.png)
 
 ## Habilidades
 * Listas de Acceso Estendidas (ACL)
 * Gestión de servidores
 * Protocolo TCP/UDP
 * Seguridad de red
+
+## Recursos
+
 
