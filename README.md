@@ -47,4 +47,6 @@ A diferencia de las listas estándar, se utilizó una **ACL Extendida (101)** pa
 
 ## Recursos
 
+[Descargar LAB3_Seguridad_Perimetral_y_ACL.pkt](./LAB3_Seguridad_Perimetral_y_ACL.pkt)
+
 
