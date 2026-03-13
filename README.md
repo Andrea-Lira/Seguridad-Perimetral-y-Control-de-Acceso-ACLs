@@ -1,4 +1,4 @@
-# Seguridad-Perimetral-y-Control-de-Acceso-ACLs-
+# Seguridad Perimetral y Control de Acceso (ACLs)
 
 ## 1. El Desafio de Seguridad
 
@@ -21,7 +21,7 @@ Creación de un nuevo segmento lógico para los recursos compartidos
 
 A diferencua de las listas estándar, se utilizó una **ACL Extendida (101)** para filtrar tráfico basado en protocolos y puertos específicos, optimizando la seguridad en el Router.
 
-## 4. Evidencia de Pruebas (Comlpliance)
+## 4. Evidencia de Pruebas (Compliance)
 
 * **Prueba Exitosa (HTTP):** PCOPERACIONES accede correctamente a `http://192.168.30.10`
 *  **Prueba de Bloqueo (ICMP/IP):** El comando `ping` desde PCOPERACIONES hacia SERVERDB es rechazado por el Router (`Destination host unreacheble`)
