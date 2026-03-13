@@ -2,7 +2,9 @@
 
 ## 1. El Desafio de Seguridad
 
-En este escenaruo avanzado la sucursal de la Empresa requiere proteger su Centro de Datos. Se implementan dos servicio críticos: un Servidor Web de consulta pública y un Servidor de Base de Datos con información sensible de Aduanas
+En este escenaruo avanzado la sucursal de la Empresa requiere proteger su Centro de Datos. Se implementan dos servicio críticos: un Servidor Web de consulta pública y un Servidor de Base de Datos con información sensible de Aduanas.
+
+![Topología de Red](Topologia.png)
 
 ### Obejtivo: 
 
